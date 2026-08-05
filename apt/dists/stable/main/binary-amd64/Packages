@@ -1,0 +1,14 @@
+Package: nexus-panel
+Version: 1.2.8
+Architecture: amd64
+Maintainer: Banibu <guicjs14@gmail.com>
+Filename: pool/main/n/nexus-panel/nexus-panel_1.2.8_amd64.deb
+Size: 14901410
+MD5sum: 4b4f84fce62e4e64880e0e50154770ca
+SHA1: ac9c16239cf53087d04601c517d568b18f129793
+SHA256: e6e1ca89cf2eaf832824420d441e7aa87e787f80fb5209f1f4e5d0715740b1e0
+Section: admin
+Priority: optional
+Description: Nexus Panel - Next-Generation Infrastructure & Server Control Panel
+ Nexus Panel is a high-performance control panel designed for Linux servers, game servers, applications, and infrastructure management.
+
