@@ -1,0 +1,6 @@
+[nexus-panel]
+name=Nexus Panel Official Repository
+baseurl=https://raw.githubusercontent.com/Banibu/NexusPanel-Installer/main/rpm/
+enabled=1
+gpgcheck=1
+gpgkey=https://raw.githubusercontent.com/Banibu/NexusPanel-Installer/main/rpm/RPM-GPG-KEY-nexus-panel
