@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>NexusPanel</Name>
+  <Repository>ghcr.io/banibu/nexus-bootstrap:v1.2.8</Repository>
+  <Registry>https://ghcr.io/banibu/nexus-bootstrap</Registry>
+  <Network>bridge</Network>
+  <Privileged>true</Privileged>
+  <Support>https://github.com/Banibu/NexusPanel-Installer/issues</Support>
+  <Project>https://github.com/Banibu/NexusPanel-Installer</Project>
+  <Overview>Nexus Panel standalone bootstrap. It provisions the complete version-pinned Docker stack and secure web onboarding.</Overview>
+  <Category>Tools: System: Management</Category>
+  <WebUI>http://[IP]:8080/onboarding</WebUI>
+  <Icon>https://raw.githubusercontent.com/Banibu/NexusPanel-Installer/main/homeserver/logo.png</Icon>
+  <ExtraParams>--privileged</ExtraParams>
+  <Config Name="Public URL" Target="NEXUS_PUBLIC_URL" Default="http://localhost:8080" Mode="" Description="External URL used by Nexus Panel" Type="Variable" Display="always" Required="true" Mask="false">http://localhost:8080</Config>
+  <Config Name="HTTP Port" Target="NEXUS_HTTP_PORT" Default="8080" Mode="" Description="HTTP port exposed by the provisioned Nexus stack" Type="Variable" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="HTTPS Port" Target="NEXUS_HTTPS_PORT" Default="8443" Mode="" Description="HTTPS port reserved by the provisioned Nexus stack" Type="Variable" Display="always" Required="true" Mask="false">8443</Config>
+  <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Required to provision the Nexus stack" Type="Path" Display="always" Required="true" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="Install Root" Target="/opt/nexus" Default="/mnt/user/appdata/nexus-panel/opt" Mode="rw" Description="Nexus installation data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nexus-panel/opt</Config>
+  <Config Name="Configuration" Target="/etc/nexus" Default="/mnt/user/appdata/nexus-panel/etc" Mode="rw" Description="Nexus configuration" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nexus-panel/etc</Config>
+  <Config Name="Persistent Data" Target="/var/lib/nexus" Default="/mnt/user/appdata/nexus-panel/data" Mode="rw" Description="Databases and persistent data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nexus-panel/data</Config>
+  <Config Name="Logs" Target="/var/log/nexus" Default="/mnt/user/appdata/nexus-panel/logs" Mode="rw" Description="Nexus logs" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nexus-panel/logs</Config>
+  <Config Name="Server Data" Target="/srv/nexus" Default="/mnt/user/appdata/nexus-panel/servers" Mode="rw" Description="Managed server files" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/nexus-panel/servers</Config>
+</Container>
