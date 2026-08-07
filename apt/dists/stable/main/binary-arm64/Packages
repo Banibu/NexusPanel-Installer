@@ -1,12 +1,12 @@
 Package: nexus-panel
-Version: 1.2.11
+Version: 1.2.12
 Architecture: arm64
 Maintainer: Banibu <guicjs14@gmail.com>
-Filename: pool/main/n/nexus-panel/nexus-panel_1.2.11_arm64.deb
-Size: 13207038
-MD5sum: 20461d9245aac8d5ac76cf5765b2c4e6
-SHA1: f3ed11c9e7c0cd9666927cc7cef6e2cf039a1a4a
-SHA256: b4f48aef189f1219ec99908eff668bcb37f3879a6c7191df6f0956e83cd8fd2f
+Filename: pool/main/n/nexus-panel/nexus-panel_1.2.12_arm64.deb
+Size: 13209298
+MD5sum: 300bbdb71b3afe8a3877cf791fc3ff49
+SHA1: 803b8f417d0316c98fc3220f7d5a19003dec98fe
+SHA256: 404e8fda6c15df05acc1e24005daed026d9cded6d2ca82737d34e995d05f4bd6
 Section: admin
 Priority: optional
 Description: Nexus Panel - Next-Generation Infrastructure & Server Control Panel
