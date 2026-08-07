@@ -1,0 +1,48 @@
+name: nexuspanel
+title: Nexus Panel
+summary: Self-hosted control panel for Linux servers and containerised workloads
+description: |
+  Nexus Panel manages containerised workloads across one or more Linux machines:
+  applications, services, databases and game servers are created, limited,
+  networked, backed up and handed to other users from a single interface.
+
+  This snap ships the administration tools, not the panel itself:
+
+    * nexusctl - installs, upgrades, repairs and operates the panel stack
+    * nexus-agent - runs on each managed machine and supervises its workloads
+
+  Classic confinement is required because both programs administer the host they
+  run on: they install and manage systemd units, drive the Docker daemon, create
+  service users and own directories outside any snap sandbox (/opt/nexus,
+  /srv/nexus, /etc/systemd/system, /usr/local/bin). No combination of interfaces
+  expresses that, in the same way it does not for other installer and
+  system-administration snaps.
+contact: mailto:guicjs14@gmail.com
+issues: https://github.com/Banibu/NexusPanel-Installer/issues
+website: https://github.com/Banibu/NexusPanel-Installer
+source-code: https://github.com/Banibu/NexusPanel-Installer
+license: Proprietary
+# A listing without an icon reads as incomplete during Canonical's manual
+# review, which every classic-confinement upload has to go through.
+icon: snap/gui/nexuspanel.png
+
+version: 'v1.2.12'
+base: core24
+confinement: classic
+grade: stable
+platforms:
+  amd64:
+
+apps:
+  nexusctl:
+    command: bin/nexusctl
+  nexus-agent:
+    command: bin/nexus-agent
+
+parts:
+  nexus-binaries:
+    plugin: dump
+    source: .release/
+    stage:
+      - bin/nexusctl
+      - bin/nexus-agent
