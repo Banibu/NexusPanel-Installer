@@ -26,12 +26,19 @@ license: Proprietary
 # review, which every classic-confinement upload has to go through.
 icon: snap/gui/nexuspanel.png
 
-version: 'v1.2.12'
+version: 'v1.2.13'
 base: core24
 confinement: classic
 grade: stable
 platforms:
   amd64:
+  # The parts below are prebuilt Go binaries, already cross-compiled, so the
+  # arm64 snap is packaging rather than building and needs no arm64 host or
+  # emulation. Every other format ships both architectures; the snap was the
+  # only one left behind.
+  arm64:
+    build-on: [amd64]
+    build-for: [arm64]
 
 apps:
   nexusctl:
