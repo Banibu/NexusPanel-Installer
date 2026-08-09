@@ -1,7 +1,7 @@
 name: nexus-panel
 services:
   nexus-bootstrap:
-    image: ghcr.io/banibu/nexus-bootstrap:v1.2.13
+    image: ghcr.io/banibu/nexus-bootstrap:v1.3.0
     container_name: nexus-bootstrap
     restart: unless-stopped
     privileged: true
@@ -34,7 +34,7 @@ x-casaos:
   category: Utilities
   port_map: "8080"
   index: /
-  version: "1.2.13"
+  version: "1.3.0"
   website: https://github.com/Banibu/NexusPanel-Installer
   repo: https://github.com/Banibu/NexusPanel-Installer
   support: https://github.com/Banibu/NexusPanel-Installer/issues
