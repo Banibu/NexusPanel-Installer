@@ -1,12 +1,12 @@
 Package: nexus-panel
-Version: 1.3.6
+Version: 1.3.7
 Architecture: amd64
 Maintainer: Banibu <guicjs14@gmail.com>
-Filename: pool/main/n/nexus-panel/nexus-panel_1.3.6_amd64.deb
-Size: 14940340
-MD5sum: 5fa3dba2c1feffec73a04c92ffe3bf7b
-SHA1: b4c03e7313d7c6bccb09534aedce3b09a7b7f928
-SHA256: 1a1490cf173d2e474b991a9a625236c84bf1a1c5fad33328e2d327cdbad3e154
+Filename: pool/main/n/nexus-panel/nexus-panel_1.3.7_amd64.deb
+Size: 14946402
+MD5sum: 4c7fa323e22935387ada28656635b00e
+SHA1: d0874f9cb82a7876d90a913e22eac2c8ed57d528
+SHA256: 56f55eedff44b9440195c0d28d341e131aabaec4f007dcccb89a44e682c43eb3
 Section: admin
 Priority: optional
 Description: Nexus Panel - Next-Generation Infrastructure & Server Control Panel
