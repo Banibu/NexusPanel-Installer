@@ -1,12 +1,12 @@
 Package: nexus-panel
-Version: 1.3.9
+Version: 1.3.10
 Architecture: arm64
 Maintainer: Banibu <guicjs14@gmail.com>
-Filename: pool/main/n/nexus-panel/nexus-panel_1.3.9_arm64.deb
-Size: 13245676
-MD5sum: d8af9807432cf18456596ec1634dbd0e
-SHA1: f22ae81b066a6c786da72fe66b55eb950b891bc9
-SHA256: d231afea68b1d0ad011a28ac2b1f7fea9102e153b23588c6b181eca96f01df49
+Filename: pool/main/n/nexus-panel/nexus-panel_1.3.10_arm64.deb
+Size: 13250604
+MD5sum: 410ffe051556871b7e3478aa62e22ce5
+SHA1: 2e276bdc35d39272058465ef76348ab769864481
+SHA256: e8aaba8ba7a98bfb8d5a243f975219db88c87d7f372c322f06602b70a9aec59a
 Section: admin
 Priority: optional
 Description: Nexus Panel - Next-Generation Infrastructure & Server Control Panel
