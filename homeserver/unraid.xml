@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>NexusPanel</Name>
-  <Repository>ghcr.io/banibu/nexus-bootstrap:v1.3.10</Repository>
+  <Repository>ghcr.io/banibu/nexus-bootstrap:v1.3.11</Repository>
   <Registry>https://ghcr.io/banibu/nexus-bootstrap</Registry>
   <Network>bridge</Network>
   <Privileged>true</Privileged>
