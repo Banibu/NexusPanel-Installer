@@ -11,7 +11,6 @@ Official distribution repository — installers, native packages, appliance imag
 [![Release](https://img.shields.io/github/v/release/Banibu/NexusPanel-Installer?style=flat-square&logo=github&label=release)](https://github.com/Banibu/NexusPanel-Installer/releases/latest)
 [![Debian](https://img.shields.io/badge/APT-Debian%20%7C%20Ubuntu-A81D33?style=flat-square&logo=debian&logoColor=white)](#debian-ubuntu-and-derivatives-apt)
 [![Fedora](https://img.shields.io/badge/DNF-Fedora%20%7C%20RHEL-51A2DA?style=flat-square&logo=fedora&logoColor=white)](#fedora-rhel-and-derivatives-dnfyum)
-[![Snap](https://img.shields.io/badge/Snap-nexuspanel-82BEA0?style=flat-square&logo=snapcraft&logoColor=white)](#snap)
 [![Kubernetes](https://img.shields.io/badge/Helm-chart-0F1689?style=flat-square&logo=helm&logoColor=white)](#kubernetes-helm)
 [![NexusOS](https://img.shields.io/badge/NexusOS-ISO%20%7C%20QCOW2%20%7C%20RAW-06B6D4?style=flat-square&logo=linux&logoColor=white)](#nexusos-appliance)
 
@@ -28,7 +27,6 @@ Official distribution repository — installers, native packages, appliance imag
   - [Standalone installer (recommended)](#standalone-installer-recommended)
   - [Debian, Ubuntu and derivatives (APT)](#debian-ubuntu-and-derivatives-apt)
   - [Fedora, RHEL and derivatives (DNF/YUM)](#fedora-rhel-and-derivatives-dnfyum)
-  - [Snap](#snap)
   - [Kubernetes (Helm)](#kubernetes-helm)
   - [CasaOS](#casaos)
   - [Unraid](#unraid)
@@ -180,21 +178,6 @@ sudo nexusctl install
 ```
 
 openSUSE uses the same repository with `sudo zypper install nexus-panel`.
-
-### Snap
-
-> The Snap Store channel is **not published yet**. Snaps that use classic confinement require
-> manual review by Canonical, and that review is still pending. Until it clears, install the
-> signed `.snap` file from the release page:
-
-```bash
-# Download nexus-panel_<version>_amd64.snap from the release page, then:
-sudo snap install ./nexus-panel_<version>_amd64.snap --classic --dangerous
-sudo nexuspanel.nexusctl install
-```
-
-`--dangerous` is required only because the file is installed from disk rather than from the
-store; its checksum is published in `SHA256SUMS` and can be verified beforehand.
 
 ### Kubernetes (Helm)
 
