@@ -3,10 +3,10 @@ Version: 1.4.13
 Architecture: amd64
 Maintainer: Banibu <guicjs14@gmail.com>
 Filename: pool/main/n/nexus-panel/nexus-panel_1.4.13_amd64.deb
-Size: 15002762
-MD5sum: 5aa17fa2a48dc45dc42d0c6c9f6d198a
-SHA1: 11243e69d3f2009ea78d50d98c6e08c6de8f33dc
-SHA256: 6710f1c0238a6e1737d095da1b29b0ae2a82d64fd27d87fcf3f7a01499677361
+Size: 15002622
+MD5sum: f93dc57941c2046c5f18b1c907668e7d
+SHA1: cf7a0a3b05a1cda526351eb378513a8f15ad795c
+SHA256: be6e70fd098b260d5420584c1acdf2dc2f0bb35e9020c4880158151fecd17c0a
 Section: admin
 Priority: optional
 Description: Nexus Panel - Next-Generation Infrastructure & Server Control Panel
