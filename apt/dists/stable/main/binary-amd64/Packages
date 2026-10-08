@@ -1,12 +1,12 @@
 Package: nexus-panel
-Version: 1.4.28
+Version: 1.4.29
 Architecture: amd64
 Maintainer: Banibu <guicjs14@gmail.com>
-Filename: pool/main/n/nexus-panel/nexus-panel_1.4.28_amd64.deb
-Size: 15010250
-MD5sum: 05ab49ccad29674adf8c83f0af524228
-SHA1: 5f9764b4d78159a94f79f603882ce583ce258b84
-SHA256: 2e89f8714fb7e0cef18b15b2d524312ee36ddafd74a02b45fcb1d616ac778309
+Filename: pool/main/n/nexus-panel/nexus-panel_1.4.29_amd64.deb
+Size: 15010782
+MD5sum: 9db29bc1231f2933cea387191648a760
+SHA1: ca7def6be8e7dae19881409b609e98cbb9d5ecc1
+SHA256: 2f78409dcb052e8d43117edf70effe3ddcb643c90338326ad0e705003151983e
 Section: admin
 Priority: optional
 Description: Nexus Panel - Next-Generation Infrastructure & Server Control Panel
